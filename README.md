@@ -14,7 +14,7 @@ The report provides an executive-level overview of revenue, profitability, produ
 - Power BI  
 - Power Query  
 - DAX  
-- Data Modeling  
+- SQL  
 - Microsoft AdventureWorks Dataset  
 
 ---
