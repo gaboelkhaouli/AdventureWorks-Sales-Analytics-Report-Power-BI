@@ -1,168 +1,122 @@
 # AdventureWorks Sales Analytics Report (Power BI)
-Project Overview
 
-This project analyzes sales performance using the Microsoft AdventureWorks dataset.
+## Project Overview
+
+This project analyzes sales performance using the **Microsoft AdventureWorks dataset**.  
 The goal is to transform raw transactional data into business insights through data modeling, DAX calculations, and interactive Power BI dashboards.
 
 The report provides an executive-level overview of revenue, profitability, product performance, customer behavior, and geographic distribution.
 
-Tools Used
+---
 
-Power BI
+## Tools Used
 
-Power Query
+- Power BI  
+- Power Query  
+- DAX  
+- Data Modeling  
+- Microsoft AdventureWorks Dataset  
 
-DAX
+---
 
-Data Modeling
-
-Microsoft AdventureWorks Dataset
-
-Key Business Metrics
+## Key Business Metrics
 
 The report tracks several important business indicators:
 
-Total Sales: $109.81M
-
-Gross Profit: $12.55M
-
-Gross Margin: 11.43%
-
-Units Sold: 275K
-
-Total Customers: 18K
-
-Average Order Value: $3.85K
+- **Total Sales:** $109.81M  
+- **Gross Profit:** $12.55M  
+- **Gross Margin:** 11.43%  
+- **Units Sold:** 275K  
+- **Total Customers:** 18K  
+- **Average Order Value:** $3.85K  
 
 These KPIs provide a quick overview of overall business performance.
 
-Dashboard Sections
-Executive Overview
+---
 
-![Executive Overview](Executive Overview.png)
+## Dashboard Sections
 
-Provides a high-level summary of the company's performance including:
+### Executive Overview
 
-Total revenue
+Provides a high-level summary of the company's performance including revenue, profitability and key metrics.
 
-Gross profit and margin
+![Executive Overview](Executive%20Overview.png)
 
-Units sold
+---
 
-Monthly sales trends
+### Sales Trends
 
-Sales distribution by country
+Focuses on time-based sales analysis including monthly trends, year-over-year comparison and seasonality patterns.
 
-Top-selling products
+![Sales Trends](Sales%20Trends.png)
 
-This page allows decision-makers to quickly assess overall business performance.
+---
 
-Sales Trends
+### Product Performance
 
-![Sales Trends](Sales Trends.png)
+Analyzes product-level performance through Pareto analysis, price vs volume relationships and top products by revenue and profitability.
 
-Focuses on time-based sales analysis:
+![Product Performance](Product%20Performance.png)
 
-Monthly sales trends
+---
 
-Year-over-year comparison
+### Customer & Geography
 
-Year-to-date sales
+Explores geographic distribution of sales and customer revenue contribution.
 
-Seasonal patterns
+![Customer & Geography](Customer%20%26%20Geography.png)
 
-This analysis helps identify growth trends and seasonality in sales performance.
+---
 
-Product Performance
+### Product Detail
 
-![Product Performance](Product Performance.png)
+Provides detailed analysis of product sales performance and profitability.
 
-Analyzes product-level performance using:
+![Product Detail](Product%20Detail.png)
 
-Pareto analysis (80/20 rule)
+---
 
-Price vs volume relationship
+## Data Modeling
 
-Top products by revenue
+The dataset was transformed using **Power Query** and structured using a **relational data model** connecting:
 
-Gross profit contribution
+- Sales
+- Products
+- Customers
+- Geography
+- Time
 
-This page helps identify high-performing products and pricing strategies.
+DAX measures were created to calculate key business metrics such as:
 
-Customer & Geography
+- Total Sales
+- Gross Profit
+- Gross Margin %
+- Average Order Value
+- Units Sold
 
-![Customer Geography](Customer & Geography.png)
+---
 
-Explores customer and geographic insights:
+## Business Insights
 
-Sales distribution across countries
+Key findings from the analysis include:
 
-Top customers by revenue
+- A small group of products generates the majority of revenue (Pareto principle).
+- Sales show clear seasonal patterns across years.
+- Certain geographic markets contribute disproportionately to total revenue.
+- Higher priced products do not always correspond to higher sales volume.
 
-Relationship between sales and profitability
+These insights can support better decision-making in pricing strategies, product prioritization and market expansion.
 
-These insights help understand market distribution and customer concentration.
+---
 
-Product Detail
+## Project Files
 
-![Product Detail](Product Detail.png)
-
-Provides detailed product-level analysis including:
-
-Sales trends per product
-
-Profitability comparisons
-
-Price vs demand analysis
-
-Geographic sales distribution
-
-Data Modeling
-
-The dataset was transformed using Power Query and structured using a relational data model connecting:
-
-Sales
-
-Products
-
-Customers
-
-Geography
-
-Time
-
-DAX measures were created to calculate KPIs such as:
-
-Total Sales
-
-Gross Profit
-
-Gross Margin %
-
-Average Order Value
-
-Year-over-Year Growth
-
-Business Insights
-
-The analysis highlights several important insights:
-
-A small group of products generates the majority of revenue (Pareto effect).
-
-Sales show strong seasonal patterns across years.
-
-Certain geographic markets contribute disproportionately to total revenue.
-
-Higher priced products do not always correspond to higher sales volume.
-
-These findings can help guide pricing strategies, inventory planning, and market prioritization.
-
-Project Files
-
-Power BI Report:
+Power BI Report:  
 AdventureWorks Sales Analytics Report – Power BI Project.pbix
 
-Author
+---
 
-Gabriel El Khaouli
+## Author
+
+**Gabriel El Khaouli**  
 Aspiring Data Analyst | Power BI | SQL | Excel
